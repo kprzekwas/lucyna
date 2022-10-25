@@ -7,7 +7,7 @@ from sqlalchemy import engine_from_config, pool
 # access to the values within the .ini file in use.
 config = context.config
 
-from db.db import settings
+from app.db import settings
 
 
 def get_db_url():
